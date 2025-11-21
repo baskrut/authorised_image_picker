@@ -1,16 +1,30 @@
-# authorised_image_picker
-
-A demo Flutter project.
-
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Передумови
+1. Встановіть [Flutter SDK](https://docs.flutter.dev/get-started/install) (версія **3.32.4** або новіша).
+2. Переконайтеся, що у вас налаштоване середовище для розробки (Android Studio, VS Code, Xcode для iOS).
 
-A few resources to get you started if this is your first Flutter project:
+### Кроки запуску
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Клонувати репозиторій
+git clone https://github.com/baskrut/authorised_image_picker.git
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Встановити залежності
+flutter pub get
+
+# Запустити застосунок
+flutter run
+
+Зроблено
+1. Екран авторизаціїї з
+  - базовою валідацією полів
+  - мок логікою отримання токену
+  - збереження токену
+3. Екран галереї з
+  - завантаженням катинок з серверу
+  - вибором картинки з пристрою
+  - відкриттям повноекранної картинки
+  - довантаженням картинок з АПІ при скролі
+  - кнопкою виходу з акаунту
+4. Сплеш екран для перевірки наявності збереженого токену і відповідної навігації
+
